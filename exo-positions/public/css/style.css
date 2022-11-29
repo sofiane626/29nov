@@ -39,10 +39,45 @@ section:nth-child(2) h2:nth-last-of-type(1) {
 /* fin exo padding */
 
 /* exo display */
+section:nth-child(3) h2:first-of-type,
+section:nth-child(3) h2:last-of-type {
+  margin: 5%;
+}
+
+section:nth-child(3) h2:first-of-type,
+section:nth-child(3) h2:last-of-type {
+  display: inline-block;
+}
+
+section:nth-child(3) h2:first-of-type,
+section:nth-child(3) h2:last-of-type {
+  display: inline;
+}
+
+section:nth-child(3) h2:last-child {
+  display: none;
+}
+
 /* fin exo display */
 
+section:nth-child(4) h2:first-of-type,
+section:nth-child(4) h2:last-of-type {
+  width: auto;
+  overflow: auto;
+}
+
 /* exo position */
+
+section:nth-child(5) h2:first-of-type {
+  position: absolute;
+  background-color: green;
+  margin: 0;
+  top: 0;
+}
+
 /* fin exo position */
+
+
 
 /* exo position (priorité) */
 /* fin exo position (priorité) */
