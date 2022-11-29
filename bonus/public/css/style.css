@@ -1,0 +1,59 @@
+body {
+    background-color: #5d93fd;
+}
+
+.bloc {
+    border: solid 5px black;
+    height: 50vh;
+    width: 50vw;
+}
+
+.div1 {
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+}
+
+.div2 {
+    width: 100%;
+    height: 25%;
+}
+
+.div3 {
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+}
+
+.div4 {
+    width: 100%;
+    height: 25%;
+}
+
+.div1-gauche {
+    height: 100%;
+    width: 25%;
+    border-right: solid 4px black;
+    background-color: #4976c9;
+}
+
+.div2-gauche {
+    height: 100%;
+    width: 50%;
+    border-right: solid 4px black;
+    background-color: #365897;
+}
+
+.div3-gauche {
+    height: 100%;
+    width: 75%;
+    border-right: solid 4px black;
+    border-bottom: solid 5px black;
+    background-color: #243b64;
+}
+
+.div4-gauche {
+    height: 97%;
+    width: 100%;
+    background-color: #121d31;
+}
