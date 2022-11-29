@@ -2,14 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: auto;
     height: 20vh;
 }
 
 .carre {
     height: 60%;
-    width: 10%;
+    width: 13%;
     background-color: red;
     display: flex;
     align-items: center;
@@ -27,6 +27,27 @@
     justify-content: center;
 }
 
-p {
+.quatre p {
+    text-align: center;
+}
+
+.orange {
+    height: 90%;
+    width: 30%;
+    background-color: orange;
+}
+
+.orange-1 {
+    height: 90%;
+    width: 7%;
+    background-color: orange;
+}
+
+.orange-p {
+    width: 90%;
+    margin: auto;
+}
+
+.orp {
     text-align: center;
 }
