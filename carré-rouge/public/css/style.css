@@ -1,0 +1,22 @@
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    height: 20vh;
+}
+
+.carre {
+    height: 90%;
+    width: 15%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}

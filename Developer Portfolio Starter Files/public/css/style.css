@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    width: 75%;
+    margin: auto;
+    height: 10vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar-titre {
+    width: 15%;
+}
+
+.nav-bar-btn {
+    width: 15%;
+    display: flex;
+    justify-content: end;
+}
+
+.section1 {
+    height: 40vh;
+    width: 75%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+.section1-div1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1-div1 h1 {
+    font-size: 35px;
+}
