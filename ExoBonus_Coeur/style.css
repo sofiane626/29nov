@@ -1,0 +1,20 @@
+.coeur {
+    height: 100vh;
+    width: 40%;
+    margin-left: 200px;
+}
+
+.ligne {
+    display: flex;
+    width: 100%;
+    height: 7%;
+}
+
+img {
+    width: 100%;
+}
+
+.collone {
+    width: 11%;
+    height: 11%;
+}
