@@ -69,10 +69,16 @@ section:nth-child(4) h2:last-of-type {
 /* exo position */
 
 section:nth-child(5) h2:first-of-type {
-  position: absolute;
+  position: fixed;
   background-color: green;
   margin: 0;
   top: 0;
+}
+
+section:nth-child(5) {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50%;
 }
 
 /* fin exo position */
@@ -80,4 +86,22 @@ section:nth-child(5) h2:first-of-type {
 
 
 /* exo position (priorité) */
+
+section:nth-child(6) h2:last-child {
+  background-color: blue;
+  margin-left: 100px;
+}
+
+section:nth-child(6) h2 {
+  position: absolute;
+}
+
+section:nth-child(6) h2:first-of-type {
+  z-index: 1;
+}
+
+section:nth-child(6) h2:first-of-type {
+  z-index: -1;
+}
+
 /* fin exo position (priorité) */
