@@ -57,3 +57,40 @@ nav {
 .section1-div1 h1 {
     font-size: 35px;
 }
+
+.section2 {
+    height: 20vh;
+    width: 75%;
+    margin: auto;
+}
+
+.section2-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 {
+    height: 70vh;
+    width: 75%;
+    margin: auto;
+    color: white;
+}
+
+.section3-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3-div1 {
+    height: 80%;
+    width: 40%;
+}
+
+.section3-div2 {
+    height: 80%;
+    width: 40%;
+}
+
+.section3-img {
+    width: 100%;
+}
